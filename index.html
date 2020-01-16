@@ -5,8 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>My carousel</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	
+	<div class="carousel-wrapper">
+		<div class="imgs-wrapper">
+			<img src="./images/img1.jpg" alt="" class="images">
+			<!-- <img src="./images/img2.jpg" alt="" class="images"> -->
+			<!-- <img src="./images/img3.jpg" alt="" class="images"> -->
+		</div>
+		<div class="left-arrow arrow"><</div>
+		<div class="right-arrow arrow" onclick="moveToRight()">></div>
+		<div class="dots-wrapper">
+			<div class="dots dots-selected"></div>
+			<div class="dots dots-unselected"></div>
+			<div class="dots dots-unselected"></div>
+		</div>
+	</div>
 </body>
 </html>
+
+<script src="./index.js"></script>
